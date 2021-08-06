@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:weather_app/weather_app.dart';
-import '_/screens/weather_app.dart';
-
 void main() {
   runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
@@ -19,4 +19,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
